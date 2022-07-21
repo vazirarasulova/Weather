@@ -18,3 +18,8 @@ body{
 	text-align: center;
 	font-weight: 700;
 }
+
+.list__image{
+	width: 150px;
+	height: 150px;
+}

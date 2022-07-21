@@ -16,7 +16,8 @@ const renderWeather = (obj, element) => {
   const sup = document.createElement("sup");
 
   newItem.classList.add("list__item")
-
+  newImage.classList.add("list__image")
+  
   newImage.src = `http://openweathermap.org/img/w/${icon}.png`;   
 
   sup.textContent = "o";
